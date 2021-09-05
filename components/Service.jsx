@@ -2,23 +2,23 @@ import { PaperClipIcon } from "@heroicons/react/outline";
 
 function Service() {
   return (
-    <div className=" bg-gray-100 h-full  ">
-      <div className="max-w-5xl mx-auto px-8">
+    <div className=" bg-gray-100 h-full overflow-hidden scrollbar-hide  ">
+      <div className="max-w-5xl mx-auto px-8  overflow-hidden scrollbar-hide">
         <div className="bg-gray-100 border-b">
           <h1 className="font-bold bg-gray-100   text-gray-700 text-2xl pt-6 pb-8">
             What Service Are You Looking For ?
           </h1>
           <div className="bg-white px-7 py-5 shadow-md">
             <h1 className="text-gray-900">
-              Describe the service you are looking to purchase - please be as
+              Describe the service you are looking to purchase - please <br /> be as
               detailed as possible:
             </h1>
             <textarea
-              className=" outline-none px-2 py-3 mt-3  border text-gray-500 mb-2 flex-shrink"
+              className=" outline-none px-2 py-3 mt-3  border text-gray-500 mb-2 flex-shrink mx-auto max-w-5xl overflow-hidden"
               name="text"
               id="text"
               placeholder="I'm looking for..."
-              cols="100"
+              cols="90"
               rows="7"
             ></textarea>
             <button className="flex shadow-md  items-center bg-gray-200   to-gray-700 px-2 py-2">
